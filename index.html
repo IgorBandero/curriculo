@@ -13,13 +13,22 @@
 <body>
     <header>
         <img src="./assets/favicon.ico" alt="Logo do site"/>
-        <nav>
+        <nav class="desktop">
             <ul>
                 <li><a href="#about">Sobre</a></li>
                 <li><a href="#interests">Interesses</a></li>
                 <li><a href="#subjects">Disciplinas</a></li>
                 <li><a href="#projects">Projetos</a></li>
                 <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+        <nav class="mobile">
+            <ul>
+                <li><a href="#about"><ion-icon name="accessibility-outline"></ion-icon></a></li>
+                <li><a href="#interests"><ion-icon name="heart-outline"></ion-icon></a></li>
+                <li><a href="#subjects"><ion-icon name="book-outline"></ion-icon></a></li>
+                <li><a href="#projects"><ion-icon name="cog-outline"></ion-icon></a></li>
+                <li><a href="#contact"><ion-icon name="call-outline"></ion-icon></a></li>
             </ul>
         </nav>
     </header>
@@ -107,4 +116,6 @@
         </address>
     </footer>
 </body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </html>
